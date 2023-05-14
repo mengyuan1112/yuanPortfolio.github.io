@@ -1,0 +1,27 @@
+.topIntro {
+    text-align: center;
+}
+
+
+.titleResume {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleResume h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+}
+
+#topIntro a.btn-rounded-white {
+    font-size: 14px;
+}
+
+.aboutMe {
+    text-align: center;
+}
