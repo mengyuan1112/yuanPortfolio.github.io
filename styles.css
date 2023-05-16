@@ -25,3 +25,126 @@
 .aboutMe {
     text-align: center;
 }
+
+.experience {
+    text-align: center;
+    /* background-color: #f2f2f5; */
+    
+}
+
+.sideProject {
+    text-align: center;
+}
+
+.education {
+    text-align: center;
+    /* background-color: #f2f2f5; */
+}
+
+.education h3{
+    color:#0fccfb;
+}
+
+.skillSet {
+    text-align: center;
+}
+
+#skillSet ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px
+}
+
+
+#skillSet li {
+    display: inline-block;
+    border-radius:10px;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-left: 900px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+}
+
+body{
+    background: linear-gradient(to bottom,  hsla(227, 71%, 22%, 0.887), #84a6e1b5);
+}
+
+#toggleButton {
+    border-radius:20px;
+    font-size: x-large;
+}
+#toggleButton2 {
+    border-radius:20px;
+    font-size: x-large;
+}
+#toggleButton3 {
+    border-radius:20px;
+    font-size: x-large;
+}
+
+
+
+
+
+.name-card {
+    background: linear-gradient(to right, #3b3a3a,#cfc8c8, #3b3a3a);
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.name-card h3 {
+    margin-top: 0;
+}
+
+.name-card h4 {
+    margin-bottom: 20px;
+}
+
+.name-card button {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.popup {
+    display: none;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.name-card:hover .popup {
+    display: block;
+}
+
+.name-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}

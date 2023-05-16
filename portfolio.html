@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Yuan Meng Portfolio</title>
 </head>
 
-
+<body>
 <div id = "topIntro" class="topIntro">
-    <h1>Yuan's Portfoooooliooooo</h1>
+    <h1>Yuan's Portfoooliooo</h1>
     <div id = "titleResume" class="titleResume">
         <h2>Software Engineer</h2>
         <a href="Yuan_Resume1.pdf" download="resume.pdf" class="btn-rounded-white">Resume</a>
@@ -24,34 +25,101 @@
 </div>
 <!-- END About me-->
 
+<hr style="border-top: 3px solid rgba(56, 44, 105, 0.584);">
+
 <div id = "experience" class = "experience">
-    <h2>Experience</h2>
+    <h2>Experience (2022-Present)</h2>
     <div id = "experienceTime line" >
-        <div>
-            <h3>ZOOM</h3>
+        <div class = "name-card-container">
+        <div class = "name-card">
+            <h3>ZOOM (Jul 2022 - Feb 2023)</h3>
             <h4>Software Engineer</h4>
-            <p>click for more info about job</p>
+            <button id="toggleButton" onclick="togglePopup()">?</button>
+            <div id="popup" class="popup">
+                <ul>
+                    <li>Design general pattern for handler and producer by using AsyncMQ and Kafka transport messages from micro-service to main platform for AAA (Active-Active-Active) Cache, vice versa, upgrade the fault tolerance from 3 different regions (va1, va2, oh1) in AWS, improve code management and code base maintenance.</li>
+                    <li>Collaborated with the UI/UX team to design full-stack feature recommend templates for branding, enabling users to quickly apply different styles to their events. Improved user experience by 100% for users without specific domain knowledge.</li>
+                    <li>Worked with front-end teammate to work on Image/Video background features, allowing users to customize their own event backgrounds to show up in lobbies and attendee sides, 80% of existing business customers had used this feature in their events.</li>
+                    <li>Initiated POC (Proof of Concept) for Email Builder feature which builds emails with 6 different areas including font, size, text color, layout, etc., giving customers up to 100% flexibility for building different email stylings.</li>
+                    <li>Maintain micro-service with core-platform and use RESTful API to keep data standalone in the micro-service.</li>
+                    <li>Designed and initiated Zoom Events features, working collaboratively with both front-end and back-end positions.</li>
+                    <li>Shared ideas across different teams to help improve existing unit testing coverage in the microservice.</li>
+                  </ul>                  
+            </div>
         </div>
+    </div>
 
         <div>
-            <h3>University at Buffalo</h3>
+            <div class = "name-card-container">
+             <div class = "name-card">
+            <h3>University at Buffalo (Sep 2021 - Jun 2022)</h3>
             <h4>Research Assistant</h4>
-            <p>click for more info about job</p>
+            <button id="toggleButton2" onclick="togglePopup()">?</button>
+            <div id="popup2" class="popup2">
+                <ul>
+                    <li>Build HTTP file transfer method by using Spring Boot, Spring Batch to transmit up to 1TB volume data and low error rate as 5% in time estimated over endpoints and protocols.</li>
+                    <li>OneDataShare project: data transfer pipeline using Java Spring framework to transfer between 7 types endpoints and protocols using strategies such as Network Pipelining, Concurrency, Parallelism.</li>
+                    <li>Maintained the production and development transfer pipeline between 7 types endpoint protocol types: DropBox, Google Drive, Grid File Transfer Protocol, File Transfer Protocol, Secure File Transfer Protocol, SSH, HTTP.</li>
+                  </ul>                  
+            </div>
         </div>
     </div>
 </div>
 <!-- END Experience-->
 
+<hr style="border-top: 3px solid rgba(56, 44, 105, 0.584);">
+
 <div id = "sideProject" class = "sideProject">
     <h2>Side Project</h2>
     <div id ="side project">
         <div>
-            <h3>ToDo List</h3>
-
+            <div class = "name-card-container">
+            <div class = "name-card">
+            <div class = "container">
+                <h3>
+                <a href="https://github.com/mengyuan1112/Todo-List" target="_blank">ToDo List (click to github)</a></h3>
+            </div>
+            <button id="toggleButton3" onclick="togglePopup()">?</button>
+            <div id="popup3" class="popup3">
+            <ul>
+                <li>Developed by Python, React.js, and deployed the project on Github Pages and AWS EC2, capable of handling millions of users without server crashes.</li>
+                <li>Improved data accuracy by 50% by creating a schema on MongoDB with key-value pairs to enhance data visualization and code maintenance.</li>
+                <li>Managed client contacts, resulting in a 58% increase in API communication and performance.</li>
+                <li>Leveraged RESTful API and WebSocket technology to provide real-time event updates and synchronization across different users, optimizing connection performance by 20% and upgrading the user experience.</li>
+            </ul>              
+            </div>
         </div>
     </div>
 </div>
+<!-- END Side Project -->
 
-<body>
+
+
+<div id = "education" class = "education">
+    <h2>Education (2018-2023)</h2>
+    <h3>University at Buffalo</h3>
+    <h4>Computer Science (Bachelor of Science)</h4>
+</div>
+<!-- END Education-->
+
+
+<hr style="border-top: 3px solid rgba(56, 44, 105, 0.584);">
+
+<div id = "skillSet" class = "skillSet">
+    <h2>Skill Set</h2>
+    
+    <div id = "skills" class = "skills">
+        <ul>
+            Languages: <li>Java</li> <li>Python</li> <li>Scala</li>
+        </ul>
+        <ul>
+            Data analytics: <li>SQL</li> <li>NoSQL</li> <li>CockroachDB</li> <li>MySQL</li> <li>MongoDB</li>
+        </ul>
+        <ul>
+            Web development: <li>Flask</li> <li>Spring</li> <li>HTML</li> <li>JavaScript</li> <li>React.js</li> <li>Docker</li> <li>AWS</li> <li>Maven</li> <li>JWT</li>
+        </ul>
+    </div>
+</div>
 </body>
+
 </html>
