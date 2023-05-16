@@ -91,14 +91,17 @@ body{
 }
 
 #toggleButton {
+    margin-top: 10px;
     border-radius:20px;
     font-size: x-large;
 }
 #toggleButton2 {
+    margin-top: 10px;
     border-radius:20px;
     font-size: x-large;
 }
 #toggleButton3 {
+    margin-top: 10px;
     border-radius:20px;
     font-size: x-large;
 }
@@ -147,4 +150,19 @@ body{
     justify-content: center;
     align-items: center;
     height: 200px;
+}
+
+.name-card h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.name-card h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.name-card h4 {
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
